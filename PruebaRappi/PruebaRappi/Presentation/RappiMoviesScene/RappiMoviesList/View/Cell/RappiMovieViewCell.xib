@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="RappiMovieViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RappiMovieViewCell" rowHeight="125" id="EOf-BK-7kh" customClass="RappiMovieViewCell" customModule="PruebaRappi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EOf-BK-7kh" id="kbq-Sn-KSz">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yxl-Zu-oev">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="125" id="PSL-ST-kdx"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRF-CO-R1k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FRF-CO-R1k" firstAttribute="leading" secondItem="yxl-Zu-oev" secondAttribute="leading" id="5BG-kE-QZt"/>
+                    <constraint firstItem="yxl-Zu-oev" firstAttribute="top" secondItem="kbq-Sn-KSz" secondAttribute="top" id="8e2-Id-tlu"/>
+                    <constraint firstItem="FRF-CO-R1k" firstAttribute="top" secondItem="yxl-Zu-oev" secondAttribute="top" id="8lu-W0-TBy"/>
+                    <constraint firstAttribute="bottom" secondItem="yxl-Zu-oev" secondAttribute="bottom" id="8qr-rY-1HF"/>
+                    <constraint firstItem="FRF-CO-R1k" firstAttribute="trailing" secondItem="yxl-Zu-oev" secondAttribute="trailing" id="9Mf-wg-x2p"/>
+                    <constraint firstAttribute="trailing" secondItem="yxl-Zu-oev" secondAttribute="trailing" id="AOz-ya-gsz"/>
+                    <constraint firstItem="yxl-Zu-oev" firstAttribute="leading" secondItem="kbq-Sn-KSz" secondAttribute="leading" id="Lwf-w8-7JR"/>
+                    <constraint firstItem="FRF-CO-R1k" firstAttribute="bottom" secondItem="yxl-Zu-oev" secondAttribute="bottom" id="dEb-Cl-K8L"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageRappiMovie" destination="yxl-Zu-oev" id="Ym8-d4-wue"/>
+                <outlet property="titleRappiMovie" destination="FRF-CO-R1k" id="3yV-st-Z3K"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="65"/>
+        </tableViewCell>
+    </objects>
+</document>
