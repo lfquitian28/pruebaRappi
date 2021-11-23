@@ -16,8 +16,6 @@
 		B23E380E27438327007FCBB9 /* RappiMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6647D27419E09004C8E39 /* RappiMovie.swift */; };
 		B23E380F27438327007FCBB9 /* RappiMovieQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6647F27419E18004C8E39 /* RappiMovieQuery.swift */; };
 		B23E381027438327007FCBB9 /* SearchRappiMoviesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6648127419F85004C8E39 /* SearchRappiMoviesUseCase.swift */; };
-		B23E381127438327007FCBB9 /* RappiMoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664862741AD08004C8E39 /* RappiMoviesRepository.swift */; };
-		B23E381227438327007FCBB9 /* PosterImagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664C52742D210004C8E39 /* PosterImagesRepository.swift */; };
 		B23E381327438327007FCBB9 /* RepositoryTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664962741B249004C8E39 /* RepositoryTask.swift */; };
 		B23E381427438327007FCBB9 /* DefaultRappiMoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664912741B0F7004C8E39 /* DefaultRappiMoviesRepository.swift */; };
 		B23E381527438327007FCBB9 /* DefaultPosterImagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664C72742D24B004C8E39 /* DefaultPosterImagesRepository.swift */; };
@@ -64,6 +62,8 @@
 		B23E384B274384DE007FCBB9 /* PosterImagesRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23E384A274384DE007FCBB9 /* PosterImagesRepositoryMock.swift */; };
 		B23E384D27438500007FCBB9 /* RappiMoviesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23E384C27438500007FCBB9 /* RappiMoviesListViewModelTests.swift */; };
 		B23E384F27438512007FCBB9 /* RappiMovieDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23E384E27438512007FCBB9 /* RappiMovieDetailsViewModelTests.swift */; };
+		B2C41C2D274C6F410006B9BF /* RappiMoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C41C2C274C6F410006B9BF /* RappiMoviesRepository.swift */; };
+		B2C41C2F274C6F5A0006B9BF /* PosterImagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C41C2E274C6F5A0006B9BF /* PosterImagesRepository.swift */; };
 		B2C66422274033C7004C8E39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C66421274033C7004C8E39 /* AppDelegate.swift */; };
 		B2C66424274033C7004C8E39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C66423274033C7004C8E39 /* SceneDelegate.swift */; };
 		B2C66429274033C7004C8E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C66427274033C7004C8E39 /* Main.storyboard */; };
@@ -84,7 +84,6 @@
 		B2C6647E27419E09004C8E39 /* RappiMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6647D27419E09004C8E39 /* RappiMovie.swift */; };
 		B2C6648027419E18004C8E39 /* RappiMovieQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6647F27419E18004C8E39 /* RappiMovieQuery.swift */; };
 		B2C6648227419F85004C8E39 /* SearchRappiMoviesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6648127419F85004C8E39 /* SearchRappiMoviesUseCase.swift */; };
-		B2C664872741AD08004C8E39 /* RappiMoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664862741AD08004C8E39 /* RappiMoviesRepository.swift */; };
 		B2C6648C2741B050004C8E39 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6648B2741B050004C8E39 /* Cancellable.swift */; };
 		B2C6648E2741B06E004C8E39 /* ConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6648D2741B06E004C8E39 /* ConnectionError.swift */; };
 		B2C664922741B0F7004C8E39 /* DefaultRappiMoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664912741B0F7004C8E39 /* DefaultRappiMoviesRepository.swift */; };
@@ -106,7 +105,6 @@
 		B2C664C12742CC31004C8E39 /* RappiMovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664BF2742CC31004C8E39 /* RappiMovieDetailsViewController.swift */; };
 		B2C664C22742CC31004C8E39 /* RappiMovieDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C664C02742CC31004C8E39 /* RappiMovieDetailsViewController.xib */; };
 		B2C664C42742CC43004C8E39 /* RappiMovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664C32742CC43004C8E39 /* RappiMovieDetailsViewModel.swift */; };
-		B2C664C62742D210004C8E39 /* PosterImagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664C52742D210004C8E39 /* PosterImagesRepository.swift */; };
 		B2C664C82742D24B004C8E39 /* DefaultPosterImagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664C72742D24B004C8E39 /* DefaultPosterImagesRepository.swift */; };
 		B2C664CF27430B81004C8E39 /* MenuRappiCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C664CD27430B81004C8E39 /* MenuRappiCategoryViewController.swift */; };
 		B2C664D027430B81004C8E39 /* MenuRappiCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2C664CE27430B81004C8E39 /* MenuRappiCategoryViewController.xib */; };
@@ -147,6 +145,8 @@
 		B23E384A274384DE007FCBB9 /* PosterImagesRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImagesRepositoryMock.swift; sourceTree = "<group>"; };
 		B23E384C27438500007FCBB9 /* RappiMoviesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiMoviesListViewModelTests.swift; sourceTree = "<group>"; };
 		B23E384E27438512007FCBB9 /* RappiMovieDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiMovieDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		B2C41C2C274C6F410006B9BF /* RappiMoviesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiMoviesRepository.swift; sourceTree = "<group>"; };
+		B2C41C2E274C6F5A0006B9BF /* PosterImagesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImagesRepository.swift; sourceTree = "<group>"; };
 		B2C6641E274033C7004C8E39 /* PruebaRappi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaRappi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C66421274033C7004C8E39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C66423274033C7004C8E39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -171,7 +171,6 @@
 		B2C6647D27419E09004C8E39 /* RappiMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiMovie.swift; sourceTree = "<group>"; };
 		B2C6647F27419E18004C8E39 /* RappiMovieQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiMovieQuery.swift; sourceTree = "<group>"; };
 		B2C6648127419F85004C8E39 /* SearchRappiMoviesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRappiMoviesUseCase.swift; sourceTree = "<group>"; };
-		B2C664862741AD08004C8E39 /* RappiMoviesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiMoviesRepository.swift; sourceTree = "<group>"; };
 		B2C6648B2741B050004C8E39 /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
 		B2C6648D2741B06E004C8E39 /* ConnectionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionError.swift; sourceTree = "<group>"; };
 		B2C664912741B0F7004C8E39 /* DefaultRappiMoviesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRappiMoviesRepository.swift; sourceTree = "<group>"; };
@@ -194,7 +193,6 @@
 		B2C664BF2742CC31004C8E39 /* RappiMovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiMovieDetailsViewController.swift; sourceTree = "<group>"; };
 		B2C664C02742CC31004C8E39 /* RappiMovieDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RappiMovieDetailsViewController.xib; sourceTree = "<group>"; };
 		B2C664C32742CC43004C8E39 /* RappiMovieDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiMovieDetailsViewModel.swift; sourceTree = "<group>"; };
-		B2C664C52742D210004C8E39 /* PosterImagesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImagesRepository.swift; sourceTree = "<group>"; };
 		B2C664C72742D24B004C8E39 /* DefaultPosterImagesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPosterImagesRepository.swift; sourceTree = "<group>"; };
 		B2C664CD27430B81004C8E39 /* MenuRappiCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRappiCategoryViewController.swift; sourceTree = "<group>"; };
 		B2C664CE27430B81004C8E39 /* MenuRappiCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuRappiCategoryViewController.xib; sourceTree = "<group>"; };
@@ -296,6 +294,15 @@
 				B23E384A274384DE007FCBB9 /* PosterImagesRepositoryMock.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		B2C41C2B274C6F130006B9BF /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B2C41C2C274C6F410006B9BF /* RappiMoviesRepository.swift */,
+				B2C41C2E274C6F5A0006B9BF /* PosterImagesRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		B2C66415274033C7004C8E39 = {
@@ -512,19 +519,9 @@
 		B2C6647C27419DBD004C8E39 /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-				B2C664852741AA2F004C8E39 /* Repositories */,
+				B2C41C2B274C6F130006B9BF /* Repositories */,
 			);
 			path = Interfaces;
-			sourceTree = "<group>";
-		};
-		B2C664852741AA2F004C8E39 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-				B2C664862741AD08004C8E39 /* RappiMoviesRepository.swift */,
-				B2C664C52742D210004C8E39 /* PosterImagesRepository.swift */,
-			);
-			name = Repositories;
-			path = "çRE";
 			sourceTree = "<group>";
 		};
 		B2C664882741AF85004C8E39 /* Infrastructure */ = {
@@ -835,7 +832,6 @@
 				B2C664792741934B004C8E39 /* Observable.swift in Sources */,
 				B2C6647027418FD6004C8E39 /* RappiMoviesListViewModel.swift in Sources */,
 				B2C6646027416D93004C8E39 /* RappiMoviesSceneDIContainer.swift in Sources */,
-				B2C664872741AD08004C8E39 /* RappiMoviesRepository.swift in Sources */,
 				B2C6649E2741C91D004C8E39 /* DataTransferService.swift in Sources */,
 				B2C664CF27430B81004C8E39 /* MenuRappiCategoryViewController.swift in Sources */,
 				B2C6648027419E18004C8E39 /* RappiMovieQuery.swift in Sources */,
@@ -858,7 +854,9 @@
 				B200807527435FC7004D6DA5 /* RappiMovieViewCell.swift in Sources */,
 				B2C664922741B0F7004C8E39 /* DefaultRappiMoviesRepository.swift in Sources */,
 				B2C66422274033C7004C8E39 /* AppDelegate.swift in Sources */,
+				B2C41C2F274C6F5A0006B9BF /* PosterImagesRepository.swift in Sources */,
 				B2C6645E274085C6004C8E39 /* AppDIContainer.swift in Sources */,
+				B2C41C2D274C6F410006B9BF /* RappiMoviesRepository.swift in Sources */,
 				B2C664772741931D004C8E39 /* AccessibilityIdentifier.swift in Sources */,
 				B2C664C82742D24B004C8E39 /* DefaultPosterImagesRepository.swift in Sources */,
 				B2C6645B27407E53004C8E39 /* AppFlowCoordinator.swift in Sources */,
@@ -869,7 +867,6 @@
 				B2C66424274033C7004C8E39 /* SceneDelegate.swift in Sources */,
 				B2C664AE2742ACE5004C8E39 /* RappiMoviesResponseStorage.swift in Sources */,
 				B2C664D627431528004C8E39 /* OptionsCategoryViewCell.swift in Sources */,
-				B2C664C62742D210004C8E39 /* PosterImagesRepository.swift in Sources */,
 				B200807A27436300004D6DA5 /* CGSize+Extension.swift in Sources */,
 				B200807D274366BB004D6DA5 /* RappiMoviesListViewController.swift in Sources */,
 				B2C6647E27419E09004C8E39 /* RappiMovie.swift in Sources */,
@@ -910,9 +907,7 @@
 				B23E380E27438327007FCBB9 /* RappiMovie.swift in Sources */,
 				B23E380F27438327007FCBB9 /* RappiMovieQuery.swift in Sources */,
 				B23E381027438327007FCBB9 /* SearchRappiMoviesUseCase.swift in Sources */,
-				B23E381127438327007FCBB9 /* RappiMoviesRepository.swift in Sources */,
 				B23E384B274384DE007FCBB9 /* PosterImagesRepositoryMock.swift in Sources */,
-				B23E381227438327007FCBB9 /* PosterImagesRepository.swift in Sources */,
 				B23E381327438327007FCBB9 /* RepositoryTask.swift in Sources */,
 				B23E381427438327007FCBB9 /* DefaultRappiMoviesRepository.swift in Sources */,
 				B23E38432743846C007FCBB9 /* NetworkSessionManagerMock.swift in Sources */,
